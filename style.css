@@ -1,51 +1,45 @@
-body{
-    background-color: brown;
+*{
+    padding: 10px;
+    
+    
 }
-@media only screen and (max-width: 1400px){
- body {
-    background-color: rgb(24, 231, 76);
- }
+@media only screen and (max-width: 1400px) {
+  form{
+    background-color: aquamarine;
+}  
 
 }
 
-@media only screen and ( max-width: 1200px){
-    body {
-       background-color: blue;
-    }
-   
-   }
-   
-   @media only screen and ( max-width: 992px){
-    body {
-       background-color: rgb(171, 20, 231);
-    }
-   
-   }
-   
-   @media only screen and ( max-width: 786px){
-    body {
-       background-color: rgb(221, 12, 151);
-    }
-   
-   }
-   
-   @media only screen and ( max-width: 576px){
-    body {
-       background-color: rgb(228, 36, 36);
-    }
-   
-   }
 
-   @media only screen and ( max-width: 320px){
-    body {
-       background-color: rgb(238, 215, 83);
-    }
-   
-   }
-   
-   
+@media only screen and (max-width: 1200px) {
+    form{
+      background-color: rgb(105, 240, 127);
+    }  
+  }
+  
+  
+@media only screen and (max-width: 992px) {
+    form{
+        background-color: gray;
+    }  
+  }
+
+  
+@media only screen and (max-width: 786px) {
+    form{
+      background-color: rgb(197, 104, 185);
+    }  
+  }
+
+  
+@media only screen and (max-width: 576px) {
+    form{
+      background-color: rgb(245, 235, 96);
+    }  
+  }
+  
 
 
 
-
-
+  
+  
